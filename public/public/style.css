@@ -1,0 +1,9 @@
+*{
+    margin: 0em;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    width: 60%;
+    text-align: center;
+    margin: 15%;
+}

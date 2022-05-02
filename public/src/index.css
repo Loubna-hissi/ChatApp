@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.itemsNavbar{
+    @apply flex items-center justify-center font-bold rounded-full;
+}
+.ulItems{
+    @apply flex h-11 w-11 items-center justify-center rounded-full border-none outline-none bg-facebookGray cursor-pointer 
+}
+.Homepage{
+    @apply grid grid-cols-12 w-full h-page;
+}
+.sidebar{
+    @apply bg-middleDarkGray col-span-3 h-page overflow-y-scroll scrollbar-none
+}
+.ServiceItem{
+    @apply m-4 flex items-center ml-11
+}
+.ImageProfil{
+    @apply rounded-full h-8 w-8
+}
+.ServiceItemTextActive{
+    @apply ml-5
+}
+.feed{
+    @apply bg-middleDarkGray col-span-6 h-page overflow-y-scroll scrollbar-none
+}
+.shareOption{
+    @apply flex items-center ml-5
+}
+.shareOptionIcon{
+    @apply mr-2 text-lg
+}
+.shareOptionText{
+    @apply text-sm
+}
+.Post{
+    @apply w-full bg-white rounded-md shadow-md shadow-gray-400 mt-6 mb-6
+}
+.Rightbar{
+    @apply bg-middleDarkGray col-span-3 h-page overflow-y-scroll scrollbar-none
+}
+.messageText{
+    @apply p-2.5 rounded-xl bg-gray-300 text-black  max-w-xs
+}
+.message{
+    @apply flex mt-6 flex-col 
+}
+.message.own{
+    @apply items-end 
+}
+.message.own .messageText{
+    @apply  bg-blue-500 text-white
+
+}
+.emoji-scroll-wrapper{
+    @apply overflow-y-scroll scrollbar-none
+}
+.emoji-search{
+    @apply w-full h-3/6 text-base text-black
+}
+.emoji-picker-react{
+    @apply h-3/6 sticky
+}
+
